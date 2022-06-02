@@ -55,7 +55,7 @@ ROOT_URLCONF = 'tienda.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['C:/Users/drixa/Desktop/proyecto/tienda/stock/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
