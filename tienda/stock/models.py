@@ -9,7 +9,7 @@ class Articulos(models.Model):
     descripcion = models.CharField(max_length= 40)
     seccion = models.CharField(max_length= 20)
     precio = models.IntegerField()
-    stock = IntegerField()
+    stock = models.IntegerField()
 
 class Cliente(models.Model):
     dni = models.IntegerField()
